@@ -11,14 +11,17 @@
 <body>
     <div class="formcontainer">
         <form action="/" id="weatherForm">
-            <label for="location"><h1>Where are you located?</h1></label>
+            <label for="location"><h1 id="title">Where are you located?</h1></label>
             <div class="checkboxes">
-            <input type="radio" id="indiana" name="location" value="Indiana">Indiana
-            <input type="radio" id="ohio" name="location" value="Ohio">Ohio
-            <input type="radio" id="illinois" name="location" value="Illinois">Illinois
-            <input type="radio" id="tennessee" name="location" value="Tennessee">Tennessee
+            <input type="radio" id="indianapolis" name="location" value="Indiana">Indianapolis
+            <input type="radio" id="phoenix" name="location" value="Ohio">Phoenix
+            <input type="radio" id="houston" name="location" value="Illinois">Houston
+            <input type="radio" id="chicago" name="location" value="Tennessee">Chicago
         </div>
             <button id="check">Check Weather</button>
+            <div id="locationBox"><h2 id="locationText"></h2></div>
+            <div id="temperatureBox"><h3 id="temperatureText"></h3></div>
+            <div class="imageBox"><img src="" alt="" id="weatherImg"></div>
         </form>
     </div>
 </body>
